@@ -1,0 +1,30 @@
+body
+{
+	background-color: #1C353C ; 
+}
+
+form
+{
+	font-family: Consolas;
+	font-size: 20px;
+	text-align: center;
+	background-color: white;
+	border-radius: 20px;
+	border: 2px solid black;
+	padding: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+
+
+table, th, td
+{
+	font-size: 10px;
+	border: 3px solid black;
+	align: center; 
+	font-size: 20px;
+	font-family: Century, Consolas, Courier New;
+	padding: 10px;
+	margin-left: 95px;
+}
