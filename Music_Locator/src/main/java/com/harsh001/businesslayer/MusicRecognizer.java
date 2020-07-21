@@ -33,7 +33,7 @@ public class MusicRecognizer {
 			RequestBody data = new MultipartBody.Builder().setType(MultipartBody.FORM)
 					.addFormDataPart("file", file.getName(), RequestBody.Companion.create(file, MEDIA_TYPE_MP3))
 					.addFormDataPart("return", "apple_music,spotify")
-					.addFormDataPart("95edc4d0fabaa94c471373ae7ea1ac70", "test").build();
+					.addFormDataPart("enter your token here", "test").build();
 
 			Request request = new Request.Builder().url("https://api.audd.io").post(data).build();
 			Response response = null;
